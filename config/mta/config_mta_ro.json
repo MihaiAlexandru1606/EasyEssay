@@ -1,0 +1,15 @@
+{
+  "name_model": "MTA-LTSM",
+  "units": 1024,
+  "embedding_size": 256,
+  "number_topics": 5,
+  "batch_size": 16,
+  "dropout": 0.2,
+  "path_dataset": "../../dataset/mta/reshape_essay_ro.txt",
+  "epochs": 1000,
+  "start_seq": "<start>",
+  "end_seq": "<end>",
+  "steps_to_save": 100,
+  "check_point_save": "../../check-point/mta",
+  "path_save_model" : "../../model/mta/"
+}

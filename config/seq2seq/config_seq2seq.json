@@ -1,0 +1,15 @@
+{
+  "name_modul": "Seq2Seq",
+  "number_hidden_units" : 1024,
+  "embedding_dimension" : 256,
+  "batch_size" : 64,
+  "max_generation" : 200,
+  "path_dataset" : "../../dataset/seq2seq/dataset_seq2seq.txt",
+  "dropout" : 0.2,
+  "epochs": 20,
+  "start_seq": "<start>",
+  "end_seq": "<end>",
+  "steps_to_save": 2,
+  "check_point_save": "../../check-point/seq2seq",
+  "path_save_model" : "../../model/seq2seq"
+}
